@@ -1,0 +1,19 @@
+{
+  "name": "ai-tools-intelligence",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Comprehensive intelligence database for AI developer tools - 250+ tools across 18+ categories",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.35.2",
+    "@rollup/rollup-win32-x64-msvc": "^4.46.2",
+    "astro": "^5.6.1",
+    "sharp": "^0.34.2"
+  }
+}
