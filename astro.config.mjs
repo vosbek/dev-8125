@@ -6,11 +6,16 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://vosbek.github.io',
 	base: '/dev-8125',
+	trailingSlash: 'always',
+	image: {
+		service: { entrypoint: 'astro/assets/services/noop' }
+	},
 	integrations: [
 		starlight({
 			title: 'AI Developer Tools Intelligence',
 			description: 'Comprehensive intelligence database for AI developer tools - 250+ tools across 18+ categories with strategic insights and technical analysis.',
-			favicon: '/favicon.ico',
+			favicon: '/favicon.svg',
+			pagefind: false,
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/vosbek/dev-8125' },
 			],
